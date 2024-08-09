@@ -9,7 +9,7 @@ public class Boulanger implements Runnable {
         try {
             while (true) {
                 boulangerie.produce();
-                Thread.sleep(500); // Simulate time taken to produce a bread
+                Thread.sleep(500); // Simule le temps de production d'un pain.
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
