@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Boulangerie boulangerie = new Boulangerie(5); // Bakery with a capacity of 5 breads
+        Boulangerie boulangerie = new Boulangerie(5); // Boulangerie avec une capacité de 5 pains
 
         Boulanger boulanger = new Boulanger(boulangerie);
         Client client = new Client(boulangerie);
