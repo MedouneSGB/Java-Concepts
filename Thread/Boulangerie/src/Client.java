@@ -9,7 +9,7 @@ public class Client implements Runnable {
         try {
             while (true) {
                 boulangerie.consume();
-                Thread.sleep(1000); // Simulate time taken to consume a bread
+                Thread.sleep(1000); // Simule le temps de consomation d'un pain
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
